@@ -5,7 +5,7 @@ from PIL import Image
 
 # API configuration
 API_URL = "https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-3.5-large"
-headers = {"Authorization": "Bearer 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"}
+headers = {"Authorization": "Bearer "}
 
 def query(payload):
     response = requests.post(API_URL, headers=headers, json=payload)
